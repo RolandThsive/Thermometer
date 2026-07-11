@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP3007LK3-13
+D MOSFET MOSFET BVDSS: 25V-30V
+K
+F https://www.diodes.com/assets/Datasheets/DMP3007LK3.pdf
+$ENDCMP
+#
+#End Doc Library

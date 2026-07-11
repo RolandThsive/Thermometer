@@ -1,0 +1,317 @@
+(footprint "SOIC8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "<b>SOIC-8</b> CASE 751-07<p>Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF<p><b>D (R-PDSO-G8)</b>PLATIC SMALL-OUTLINE PACKAGE<br>Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf")
+	(property "Reference" "REF**"
+		(at -3.302 -1.27 180)
+		(layer "F.SilkS")
+		(uuid "acef38e1-a2fb-478f-9dce-63f81ef0d359")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC8"
+		(at 3.302 -1.27 180)
+		(layer "F.Fab")
+		(uuid "a7df4ac1-97a9-411f-a7aa-cebf22be90db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a21a25be-82ed-4715-9920-5282cf82d438")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5478eb2-fc93-456c-b5d4-758e81169fbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 0.5)
+		(end -1.5 0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f56b092-98f9-42be-919b-03932af49f9b")
+	)
+	(fp_line
+		(start -2.4 1.4)
+		(end -2.4 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f7d180d-de12-470c-91eb-05a23e937c99")
+	)
+	(fp_line
+		(start -2.4 1.9)
+		(end -2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f62a1e6e-958c-4bbf-a85a-902be2311d61")
+	)
+	(fp_line
+		(start -1.5 -0.5)
+		(end -2.5 -0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2382f8a-55c3-4b74-852c-ad7f3a0d16c3")
+	)
+	(fp_line
+		(start -1.5 0.5)
+		(end -1.5 -0.5)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cee3bf13-f4cf-43db-92c2-8cb1565f4938")
+	)
+	(fp_line
+		(start 2.4 -1.9)
+		(end 2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da60a789-6956-4886-ae77-e6312582d08c")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end -2.4 1.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa1e95b9-7e00-4c45-8a03-752d492227f4")
+	)
+	(fp_line
+		(start 2.4 1.4)
+		(end 2.4 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5049a72-622f-42d2-b6b2-e9d8a2c53637")
+	)
+	(fp_line
+		(start -2.4 -1.9)
+		(end 2.4 -1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e146851-0f2c-4111-a22b-3d53a8d29660")
+	)
+	(fp_line
+		(start 2.4 1.9)
+		(end -2.4 1.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49124006-77a8-47d6-8789-d7bc6697b181")
+	)
+	(fp_poly
+		(pts
+			(xy -2.15 -3.1) (xy -1.66 -3.1) (xy -1.66 -2) (xy -2.15 -2)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "997e4eca-0d04-4b19-868f-90b25cea73ab")
+	)
+	(fp_poly
+		(pts
+			(xy -2.15 2) (xy -1.66 2) (xy -1.66 3.1) (xy -2.15 3.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e5b438b2-2a39-48d3-9613-a05686b3a748")
+	)
+	(fp_poly
+		(pts
+			(xy -0.88 -3.1) (xy -0.39 -3.1) (xy -0.39 -2) (xy -0.88 -2)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "eae69e49-63b7-468a-9c31-ae484c59db23")
+	)
+	(fp_poly
+		(pts
+			(xy -0.88 2) (xy -0.39 2) (xy -0.39 3.1) (xy -0.88 3.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4b5f0ecb-f555-4447-b0a5-f6431b851e1b")
+	)
+	(fp_poly
+		(pts
+			(xy 0.39 -3.1) (xy 0.88 -3.1) (xy 0.88 -2) (xy 0.39 -2)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "dee48229-5f85-43df-a3f3-76a6f3d04868")
+	)
+	(fp_poly
+		(pts
+			(xy 0.39 2) (xy 0.88 2) (xy 0.88 3.1) (xy 0.39 3.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "bc82271f-24bd-4529-8a32-5e47327b80c8")
+	)
+	(fp_poly
+		(pts
+			(xy 1.66 -3.1) (xy 2.15 -3.1) (xy 2.15 -2) (xy 1.66 -2)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "f428d5f2-0ddc-459d-b56f-8e5a5d3daae5")
+	)
+	(fp_poly
+		(pts
+			(xy 1.66 2) (xy 2.15 2) (xy 2.15 3.1) (xy 1.66 3.1)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "12e270e9-3970-4816-806a-e231365a7a38")
+	)
+	(pad "1" smd rect
+		(at -1.905 2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "34a423df-f315-435a-91e7-3133b798c809")
+	)
+	(pad "2" smd rect
+		(at -0.635 2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1118f239-4b37-4dad-84f1-cf118bdf9bef")
+	)
+	(pad "3" smd rect
+		(at 0.635 2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e5473dc8-deea-4d91-904b-e93ba56937e7")
+	)
+	(pad "4" smd rect
+		(at 1.905 2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c87d56a0-000c-4f6e-aedb-b2de302ecc6b")
+	)
+	(pad "5" smd rect
+		(at 1.905 -2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d4a922c7-3a8a-40fb-aa2c-6840c12b76b1")
+	)
+	(pad "6" smd rect
+		(at 0.635 -2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "04928dcd-63b3-4db3-ae43-4ce06cf0f46c")
+	)
+	(pad "7" smd rect
+		(at -0.635 -2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "98be96aa-9eb0-4ba5-8a14-c30d785e4dd1")
+	)
+	(pad "8" smd rect
+		(at -1.905 -2.75)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8306a7e8-5176-4787-a383-4871fda1b8ce")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Rohit Tantiya/Desktop/Projects/AQI Board/Thermometer/Electronics/Libraries/AS5600/AS5600.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
