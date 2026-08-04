@@ -39,7 +39,7 @@ For complete printing and assembly instructions, scroll all the way down to the 
 
 ---
 
-* ## License
+## License
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
