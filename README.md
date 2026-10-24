@@ -7,6 +7,7 @@
 
 [![Blog](https://img.shields.io/badge/Build%20Guide-ro--h--bots-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
 [![YouTube](https://img.shields.io/badge/Watch%20it%20move-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eJ1ZuOeHxdU)
+[![Onshape](https://img.shields.io/badge/Open%20in-Onshape-0A6EB4?style=for-the-badge&logo=onshape&logoColor=white)](https://cad.onshape.com/documents/023499ad2580b325269edb09/w/a4a7c260365f00878d46eb10/e/65b66c7796726d7d7edb32fc?renderMode=0&uiState=6add18dae21be264acb28c49)
 [![Instagram](https://img.shields.io/badge/@ro__h__bots-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ro_h_bots)
 
 ![ESP32-C3](https://img.shields.io/badge/MCU-ESP32--C3-E7352C?style=flat-square&logo=espressif&logoColor=white)
