@@ -7,6 +7,7 @@
 
 [![Blog](https://img.shields.io/badge/Build%20Guide-ro--h--bots-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
 [![YouTube](https://img.shields.io/badge/Watch%20it%20move-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eJ1ZuOeHxdU)
+[![Onshape](https://img.shields.io/badge/Open%20in-Onshape-0A6EB4?style=for-the-badge&logo=onshape&logoColor=white)](https://cad.onshape.com/documents/023499ad2580b325269edb09/w/a4a7c260365f00878d46eb10/e/65b66c7796726d7d7edb32fc?renderMode=0&uiState=6add18dae21be264acb28c49)
 [![Instagram](https://img.shields.io/badge/@ro__h__bots-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ro_h_bots)
 
 ![ESP32-C3](https://img.shields.io/badge/MCU-ESP32--C3-E7352C?style=flat-square&logo=espressif&logoColor=white)
@@ -27,8 +28,8 @@ The Thermometer shows **room temperature** and **dew point** with two independen
 
 | Tick | Shows | Drive train |
 | :--- | :--- | :--- |
-| 🟤 **Tick 1** — brass rod | Dew point | N20 → crossed helical gear → two 22T spur gears → tick |
-| ⚪ **Tick 2** — planetary set | Room temperature | N20 → crossed helical gear → helical ring gear → planetary set |
+| **Tick 1** — brass rod | Dew point | N20 → crossed helical gear → two 22T spur gears → tick |
+| **Tick 2** — planetary set | Room temperature | N20 → crossed helical gear → helical ring gear → planetary set |
 
 Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so the gauge always knows exactly where its needles are. Gear visibility and a symmetrical face were the top design priorities.
 
@@ -36,13 +37,13 @@ Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so 
 
 ## 🔧 Features
 
-- 🎯 **Absolute positioning** on both ticks with AS5600 magnetic encoders
-- ⚙️ **Planetary gear set** as the visual centrepiece of the face
-- 🧠 **Custom main board** built around a Seeed Studio XIAO ESP32-C3
-- 🔀 **PCA9546A I²C multiplexer** to talk to both encoders and the SHT40 sensor
-- 🔌 **DRV8833** dual motor driver, with reverse-polarity and ESD protection on the connectors
-- 🔗 **USART link** (115200 baud) so the gauge can be polled and commanded by a master board
-- 🔍 **125 mm glass** front and a two-part 3D-printed housing with embedded nuts
+- **Absolute positioning** on both ticks with AS5600 magnetic encoders
+- **Planetary gear set** as the visual centrepiece of the face
+- **Custom main board** built around a Seeed Studio XIAO ESP32-C3
+- **PCA9546A I²C multiplexer** to talk to both encoders and the SHT40 sensor
+- **DRV8833** dual motor driver, with reverse-polarity and ESD protection on the connectors
+- **USART link** (115200 baud) so the gauge can be polled and commanded by a master board
+- **125 mm glass** front and a two-part 3D-printed housing with embedded nuts
 
 ---
 
@@ -65,7 +66,7 @@ Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so 
 ## 📖 Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
-👉 [The Thermometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
+[The Thermometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
 
 > [!TIP]
 > Every part prints normally **except the top housing**, which has nuts embedded mid-print. The layer they sit on must be perfectly flat — use the [Sharpie technique](https://www.youtube.com/shorts/kZ-3rjznSyk) on the supports.
@@ -159,9 +160,9 @@ Thermometer/
 
 | Project | Description |
 | :--- | :--- |
-| 💧 [**Hygrometer**](https://github.com/RolandThsive/Hygrometer) | Analog humidity gauge with a globoid worm drive |
-| 🌡️ **Thermometer** *(you are here)* | Temperature & dew point gauge with a planetary gear set |
-| 🌫️ AQI Meter · 🧪 VOC Meter | Coming soon |
+| [**Hygrometer**](https://github.com/RolandThsive/Hygrometer) | Analog humidity gauge with a globoid worm drive |
+| **Thermometer** *(you are here)* | Temperature & dew point gauge with a planetary gear set |
+| AQI Meter · VOC Meter | Coming soon |
 
 ---
 
