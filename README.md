@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌡️ The Thermometer
+# The Thermometer
 ### *An analog temperature & dew point gauge — part of the AQI Board*
 
 <img src="https://RolandThsive.github.io/FeaturedImages/1688470081229896581.jpg" alt="The Thermometer (AQI Board)" width="720"/>
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Overview
+## Overview
 
 This repository is a part of the **AQI Board** project by [@RolandThsive](https://ro-h-bots.blogspot.com/p/about-me.html) — a wall of analog-style instruments (hygrometer, thermometer, AQI meter and VOC meter) that are as much a showpiece as they are useful.
 
@@ -28,14 +28,14 @@ The Thermometer shows **room temperature** and **dew point** with two independen
 
 | Tick | Shows | Drive train |
 | :--- | :--- | :--- |
-| **Tick 1** — brass rod | Dew point | N20 → crossed helical gear → two 22T spur gears → tick |
-| **Tick 2** — planetary set | Room temperature | N20 → crossed helical gear → helical ring gear → planetary set |
+| **Tick 1** — brass rod | Room temperature | N20 → crossed helical gear → two 22T spur gears → tick |
+| **Tick 2** — planetary set | Dew point | N20 → crossed helical gear → helical ring gear → planetary set |
 
 Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so the gauge always knows exactly where its needles are. Gear visibility and a symmetrical face were the top design priorities.
 
 ---
 
-## 🔧 Features
+## Features
 
 - **Absolute positioning** on both ticks with AS5600 magnetic encoders
 - **Planetary gear set** as the visual centrepiece of the face
@@ -47,7 +47,7 @@ Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so 
 
 ---
 
-## 📸 Gallery
+## Gallery
 
 <div align="center">
 
@@ -63,7 +63,7 @@ Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so 
 
 ---
 
-## 📖 Instructions
+## Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
 [The Thermometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
@@ -73,7 +73,7 @@ For complete printing and assembly instructions, scroll all the way down to the 
 
 ---
 
-## 🛠️ Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Quantity | Item Description |
 | :---: | :--- |
@@ -95,7 +95,7 @@ For complete printing and assembly instructions, scroll all the way down to the 
 
 ---
 
-## ⚡ Electronics
+## Electronics
 
 | Component | Role |
 | :--- | :--- |
@@ -111,7 +111,7 @@ Schematic PDF: [`Electronics/TheMainBoard_Schematic.pdf`](Electronics/TheMainBoa
 
 ---
 
-## 💻 Firmware
+## Firmware
 
 Built with **PlatformIO** on the Arduino framework for `seeed_xiao_esp32c3`.
 
@@ -132,7 +132,7 @@ Between commands the gauge refreshes itself on its own, so it also works standal
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Thermometer/
@@ -156,7 +156,7 @@ Thermometer/
 
 ---
 
-## 🧩 The AQI Board Family
+## The AQI Board Family
 
 | Project | Description |
 | :--- | :--- |
@@ -166,7 +166,7 @@ Thermometer/
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 * **Blog:** [ro-h-bots.blogspot.com](https://ro-h-bots.blogspot.com/)
 * **Insta:** [@ro_h_bots](https://www.instagram.com/ro_h_bots?igsh=cDNkcnNpYnB5aWR1)
 
