@@ -47,7 +47,7 @@ Both ticks are read **1 : 1** by AS5600 magnetic encoders on the main board, so 
 
 ---
 
-## Gallery
+## Parts Gallery
 
 <div align="center">
 
@@ -163,6 +163,32 @@ Thermometer/
 | [**Hygrometer**](https://github.com/RolandThsive/Hygrometer) | Analog humidity gauge with a globoid worm drive |
 | **Thermometer** *(you are here)* | Temperature & dew point gauge with a planetary gear set |
 | AQI Meter · VOC Meter | Coming soon |
+
+---
+
+## Gallery
+
+<div align="center">
+
+| Full Assembly | The Face |
+| :---: | :---: |
+| <img src="Post_Images/Assembly%20-%20Thermometer.png" width="380"/> | <img src="Post_Images/IMG_20260714_131422270_HDR~2.jpg" width="380"/> |
+
+| The Mechanism | The Main PCB — Assembled | The Backside |
+| :---: | :---: | :---: |
+| <img src="Post_Images/IMG_20260627_224354099_HDR.jpg" width="250"/> | <img src="Post_Images/IMG_20260916_002304329_HDR.jpg" width="250"/> | <img src="Post_Images/IMG_20260916_002912029_HDR.jpg" width="250"/> |
+
+| The Internals | The Main PCB — Front & Back |
+| :---: | :---: |
+| <img src="Post_Images/IMG_20260917_155809929_HDR.jpg" width="380"/> | <img src="Post_Images/IMG_20260917_165704251_HDR.jpg" width="380"/> |
+
+**The Main Board Schematic**
+
+<img src="Post_Images/TheMainBoard_Schematic_page-0001.jpg" width="780"/>
+
+*Click any picture to see it full size.*
+
+</div>
 
 ---
 
