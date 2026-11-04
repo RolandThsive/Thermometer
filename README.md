@@ -3,7 +3,7 @@
 # The Thermometer
 ### *An analog temperature & dew point gauge — part of the AQI Board*
 
-<img src="https://RolandThsive.github.io/FeaturedImages/1688470081229896581.jpg" alt="The Thermometer (AQI Board)" width="720"/>
+<img src="https://RolandThsive.github.io/Assets/PagesAndPosts_Assets/FeaturedImages/1688470081229896581.jpg" alt="The Thermometer (AQI Board)" width="720"/>
 
 [![Blog](https://img.shields.io/badge/Build%20Guide-ro--h--bots-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://ro-h-bots.blogspot.com/2026/07/the-thermometer-aqi-board.html)
 [![YouTube](https://img.shields.io/badge/Watch%20it%20move-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eJ1ZuOeHxdU)
